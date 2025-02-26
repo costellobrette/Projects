@@ -11,19 +11,19 @@ page = st.sidebar.radio("Go to", ["Reports"])
  
 if page == "Title":
     st.title("Title")
-    st.write("")
+    st.write("Title")
 if page == "Time & Usage":
     st.title("Time & Usage")
-    st.write("")
+    st.write("Time & Usage")
 if page == "Shows":
     st.title("Shows")
-    st.write("")
+    st.write("Shows")
 if page == "Movies":
     st.title("Movies")
-    st.write("")
+    st.write("Movies")
 if page == "Genres":
     st.title("Genres")
-    st.write("")
+    st.write("Genres")
 if page == "Categories by Days/Hours":
     st.title("Categories by Days/Hours")
     st.write("")
