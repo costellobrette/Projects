@@ -1,2 +1,7 @@
 # Projects
+## Download Power BI Presentation
+
+You can download the Power BI presentation file from the link below:
+
+[Download Power BI Presentation](https://github.com/Projects/Netflix-Analysis.pbix)
 
