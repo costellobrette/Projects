@@ -6,5 +6,8 @@ The data within the files contained in the Netflix Analysis folder were provided
 
 ## ETL Nova Scotia Collisions
 
+The ETL Nova Scotia Collisions folder contains a Microsoft Visual Studio ETL project integrated with SQL Server Management Studio. This project focuses on collisions that have occurred over the past 5 years within the HRM (Halifax Regional Municipality) area. The data was sourced from the Nova Scotia Open Data Portal.
+
+
 [Download Power BI Presentation](https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis.pbix)
 
