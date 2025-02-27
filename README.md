@@ -1,4 +1,4 @@
-<u> # Projects </u>
+# <u>Projects</u>
 
 You can download the Power BI presentation file from the link below:
 
