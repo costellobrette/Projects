@@ -12,22 +12,22 @@ The ETL Nova Scotia Collisions folder contains a Microsoft Visual Studio ETL pro
 
 #### <u>Links</u>
 
-[Netflix Analysis Staging] : https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Staging.sql
+[Netflix Analysis Staging] :https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Staging.sql
 [Netflix Analysis Data Loader]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Data%20Loader.sql
 [Netflix Database]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix_DW.bak
-[Power BI Presentation]: https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis.pbix
-[Nova Scotia Collisions VS]: https://github.com/costellobrette/Projects/blob/main/ETL%20Nova%20Scotia%20Collisions/NS_Collisions.dtsx
+[Power BI Presentation]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis.pbix
+[Nova Scotia Collisions VS]:https://github.com/costellobrette/Projects/blob/main/ETL%20Nova%20Scotia%20Collisions/NS_Collisions.dtsx
 
 
 <u>Netflix Analysis</u>
 
-[Netflix Analysis Staging]
-[Netflix Analysis Data Loader]
-[Netflix Database]
-[Power BI Presentation]
+- [Netflix Analysis Staging]
++ [Netflix Analysis Data Loader]
+* [Netflix Database]
+- [Power BI Presentation]
 
 <u>ETL Nova Scotia Collisions</u>
-[Nova Scotia Collisions VS]
+- [Nova Scotia Collisions VS]
 
 
 
