@@ -12,7 +12,7 @@ The ETL Nova Scotia Collisions folder contains a Microsoft Visual Studio ETL pro
 
 #### <u>Links</u>
 
-[Netflix Analysis Staging] :https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Staging.sql
+[Netflix Analysis Staging]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Staging.sql
 [Netflix Analysis Data Loader]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Data%20Loader.sql
 [Netflix Database]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix_DW.bak
 [Power BI Presentation]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis.pbix
