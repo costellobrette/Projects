@@ -1,5 +1,4 @@
-# Projects
-## Download Power BI Presentation
+<u> # Projects </u>
 
 You can download the Power BI presentation file from the link below:
 
