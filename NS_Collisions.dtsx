@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="2/7/2025 7:37:14 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="299"
-  DTS:VersionGUID="{8F68AAA9-991A-428A-8181-55FD312436CD}">
+  DTS:VersionBuild="300"
+  DTS:VersionGUID="{896D2A03-ACDD-405A-8F14-7EB5DBC58258}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3635,7 +3635,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Rpt_Artificial_Light"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -3652,7 +3652,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Rpt_Calendar"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -5701,7 +5701,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
         <NodeLayout
           Size="168,41.6"
           Id="Package\DIM_TABLES\Dim_Artificial_Light"
@@ -5754,7 +5754,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="112.766659062936,59.7999980654319">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="-14.4000043710073,37.3999985716741"
               Start="0,0"
               End="-14.4000043710073,29.8999985716741">
@@ -5838,7 +5838,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="119.999995082617,69.7333325257565">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="-18.2333335609902,40.7333327607977"
               Start="0,0"
               End="-18.2333335609902,33.2333327607977">
@@ -5879,7 +5879,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="320.833327824043,170.266666353279">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="116.299985384445,127.799998824795"
               Start="0,0"
               End="108.799985384445,127.799998824795">
@@ -5913,7 +5913,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="390.083326389806,680.733330663509">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="0,69.4666653046337"
               Start="0,0"
               End="0,61.9666653046337">
@@ -5935,7 +5935,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="391.866658653153,986.999995968143">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="-20.2666624777843,47.2666670222382"
               Start="0,0"
               End="-20.2666624777843,39.7666670222382">
@@ -5969,7 +5969,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="519.933313208488,318.866665178074">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="-131.633319082029,65.0666654854351"
               Start="0,0"
               End="-131.633319082029,57.5666654854351">
@@ -6003,7 +6003,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="371.599996175369,1261.46666299038">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="-18.6000117470816,94.6666640390301"
               Start="0,0"
               End="-18.6000117470816,87.1666640390301">
@@ -6084,11 +6084,11 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           </AnnotationLayout.FontInfo>
         </AnnotationLayout>
         <AnnotationLayout
-          Text="Creating reports for end users to use and analyze "
+          Text="Creating report views for end users to analyze and create reports with"
           ParentId="Package"
-          Size="334.4,60"
-          Id="be4a7fa7-d050-4fc8-add2-4c68b5cedb2c"
-          TopLeft="891.366619450684,1135.19999689023">
+          Size="456,60"
+          Id="17fe89a4-f0a7-4fa4-a552-b0cc6d8d54fb"
+          TopLeft="810.69995806565,1118.79999880671">
           <AnnotationLayout.FontInfo>
             <mssge:FontInfo
               Family="Tahoma"
@@ -6151,9 +6151,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6195,7 +6193,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
         <AnnotationLayout
           Text="CREATE TABLE dim.Artificial_Light(&#xA; Artificial_ID INT NOT NULL IDENTITY (100000,1),&#xA; Artificial_Light NVARCHAR(25) NOT NULL&#xA;)&#xA;ALTER TABLE dim.Artificial_Light&#xA;ADD CONSTRAINT PK_Art PRIMARY KEY(Artificial_ID);"
           ParentId="Package\DIM_TABLES\Dim_Artificial_Light"
-          Size="310.4,NaN"
+          Size="310.4,125.6"
           Id="9b90175d-a59e-4bc9-9daa-16e8b95a55f8"
           TopLeft="452.999993249774,132.999998018146">
           <AnnotationLayout.FontInfo>
@@ -6212,7 +6210,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
         <AnnotationLayout
           Text="Dim.Artificial_Light"
           ParentId="Package\DIM_TABLES\Dim_Artificial_Light"
-          Size="164,NaN"
+          Size="164,40.8"
           Id="2dbaf8c5-d540-4ef1-85a0-2386c17c849a"
           TopLeft="478.999992862344,70.9999989420176">
           <AnnotationLayout.FontInfo>
@@ -7121,7 +7119,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
     design-time-name="Package\FACT_TABLES\Fact_NS_Collisions">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\FACT_TABLES\Fact_NS_Collisions\Fact_NS_Collisions"
@@ -7161,15 +7159,13 @@ ON s.[Light Condition] = l.Light_Condition;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <AnnotationLayout
           Text="DROP TABLE IF EXISTS fact.NS_Collisions&#xA;GO&#xA;&#xA;&#xA;CREATE TABLE fact.NS_Collisions(&#xA; Accident_Date DATE NOT NULL,&#xA;                     Case_File_Number INT NOT NULL,&#xA; [Time] TIME NOT NULL,&#xA; Road_Configuration_ID INT NOT NULL,&#xA; Collision_Configuration_ID INT NOT NULL,&#xA; Collision_Count INT NOT NULL,&#xA; Young_Demographic NVARCHAR(3) NOT NULL,&#xA; Pedestrian_Collision NVARCHAR(3) NOT NULL,&#xA; Aggressive_Driving NVARCHAR(3) NOT NULL,&#xA; Distracted_Driving NVARCHAR(3) NOT NULL,&#xA; Impaired_Driving NVARCHAR(3) NOT NULL,&#xA; Bicycle_Collision NVARCHAR(3) NOT NULL,&#xA; Injury_ID INT NOT NULL,&#xA; Artificial_ID INT NOT NULL,&#xA; Light_ID INT NOT NULL&#xA;)&#xA;ALTER TABLE fact.NS_Collisions&#xA;ADD CONSTRAINT FK_Cal_to_Date&#xA;FOREIGN KEY (Accident_Date)&#xA;REFERENCES dim.Calendar(Date);&#xA;&#xA;ALTER TABLE fact.NS_Collisions&#xA;ADD CONSTRAINT FK_Road_to_Coll&#xA;FOREIGN KEY (Road_Configuration_ID)&#xA;REFERENCES dim.Road_Type(Road_Configuration_ID);&#xA;&#xA;ALTER TABLE fact.NS_Collisions&#xA;ADD CONSTRAINT FK_Coll_to_Coll&#xA;FOREIGN KEY (Collision_Configuration_ID)&#xA;REFERENCES dim.Collision_Type (Collision_Configuration_ID);&#xA;&#xA;ALTER TABLE fact.NS_Collisions&#xA;ADD CONSTRAINT FK_Inj_to_Coll&#xA;FOREIGN KEY (Injury_ID)&#xA;REFERENCES dim.Injuries(Injury_ID);&#xA;&#xA;ALTER TABLE fact.NS_Collisions&#xA;ADD CONSTRAINT FK_Art_to_Coll&#xA;FOREIGN KEY (Artificial_ID)&#xA;REFERENCES dim.Artificial_Light(Artificial_ID);&#xA;&#xA;ALTER TABLE fact.NS_Collisions&#xA;ADD CONSTRAINT FK_Light_to_Coll&#xA;FOREIGN KEY (Light_ID)&#xA;REFERENCES dim.Light_Condition(Light_ID);"
           ParentId="Package\FACT_TABLES\Fact_NS_Collisions"
-          Size="349.6,NaN"
+          Size="349.6,762.4"
           Id="6d8ec8ab-b1e5-40a3-8f6a-e46a2a116802"
           TopLeft="682.499962709846,85.7999994033576">
           <AnnotationLayout.FontInfo>
@@ -7186,7 +7182,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
         <AnnotationLayout
           Text="Fact.NS_Collisions"
           ParentId="Package\FACT_TABLES\Fact_NS_Collisions"
-          Size="156.8,NaN"
+          Size="156.8,40.8"
           Id="9f355188-3200-4737-b1f3-0ab89c867dec"
           TopLeft="725.83329367555,42.4666663713588">
           <AnnotationLayout.FontInfo>
@@ -7277,9 +7273,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7349,15 +7343,13 @@ ON s.[Light Condition] = l.Light_Condition;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <AnnotationLayout
           Text="CREATE TABLE [stg].[Collisions](&#xA; [Case File Number] [int],&#xA; [Accident Date] [date],&#xA; [Time] [time](7),&#xA; [Road Location] [nvarchar](250),&#xA; [Intersecting Road Location] [nvarchar](100),&#xA; [Road Configuration] [nvarchar](75),&#xA; [Collision Configuration] [nvarchar](25),&#xA; [Fatal_NonFatal_Injuries] [nvarchar](25),&#xA; [Young Demographic] [nvarchar](3),&#xA; [Pedestrian Collision] [nvarchar](3),&#xA; [Aggressive Driving] [nvarchar](3),&#xA; [Distracted Driving] [nvarchar](3),&#xA; [Impaired Driving] [nvarchar](3),&#xA; [Bicycle Collision] [nvarchar](3),&#xA; [Light Condition] [nvarchar](25),&#xA; [Artificial Light Condition] [nvarchar](25),&#xA; [Weather Condition] [nvarchar](25),&#xA; [Road Surface] [nvarchar](50),&#xA; [Road Condition] [nvarchar](50),&#xA; [Unusual Environmental Circumstances] [nvarchar](100),&#xA; [Road Alignment] [nvarchar](25),&#xA; [Road Grade] [nvarchar](25),&#xA; [School Purpose Related] [nvarchar](100)&#xA;) ON [PRIMARY]&#xA;GO"
           ParentId="Package\STG_COLLISIONS\Stg_Collisions"
-          Size="335.2,NaN"
+          Size="335.2,400.8"
           Id="1fe20a63-ba8c-4868-bd4f-ae175eb40226"
           TopLeft="717.999989300966,94.4666659286948">
           <AnnotationLayout.FontInfo>
@@ -7374,7 +7366,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
         <AnnotationLayout
           Text="CREATE TABLE error.NS_Collisions (&#xA;    [Flat File Source Error Output Column] varchar(max),&#xA;    [ErrorCode] int,&#xA;    [ErrorColumn] int&#xA;)&#xA;&#xA;ALTER TABLE error.NS_Collisions&#xA;ADD Last_Loaded DATETIME DEFAULT GETDATE() NOT NULL;"
           ParentId="Package\STG_COLLISIONS\Stg_Collisions"
-          Size="348.8,NaN"
+          Size="348.8,154.4"
           Id="7ebc5202-8a31-467d-a9b3-f9f53523cc80"
           TopLeft="1052.7666372079,97.0666659916772">
           <AnnotationLayout.FontInfo>
@@ -7391,7 +7383,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
         <AnnotationLayout
           Text="STG.COLLISIONS"
           ParentId="Package\STG_COLLISIONS\Stg_Collisions"
-          Size="153.6,NaN"
+          Size="153.6,40.8"
           Id="c035fa3d-bbe0-46b0-8140-e18cec913e8a"
           TopLeft="756.466637617682,59.3999999095996">
           <AnnotationLayout.FontInfo>
@@ -7409,7 +7401,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
         <AnnotationLayout
           Text="ERROR.NS_COLLISIONS"
           ParentId="Package\STG_COLLISIONS\Stg_Collisions"
-          Size="199.2,NaN"
+          Size="199.2,40.8"
           Id="e0ef0330-5eb7-4598-8e2b-ca0cde066600"
           TopLeft="1062.53328179187,58.7333330862389">
           <AnnotationLayout.FontInfo>
