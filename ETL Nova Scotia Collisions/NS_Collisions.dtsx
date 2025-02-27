@@ -1,5 +1,3 @@
-#Dtsx file can be downloaded through raw file download
-
 <?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
