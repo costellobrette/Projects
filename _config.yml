@@ -1,5 +1,6 @@
 title: GitHub Repository Projects
-author: Brette Costello
+author: 
+    name:  Brette Costello
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
