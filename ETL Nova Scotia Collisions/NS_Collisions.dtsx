@@ -12,7 +12,7 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:VersionBuild="300"
-  DTS:VersionGUID="{896D2A03-ACDD-405A-8F14-7EB5DBC58258}">
+  DTS:VersionGUID="{63718958-B7B1-4214-92E7-D3CC9C9CA342}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3635,7 +3635,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Rpt_Artificial_Light"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -3652,7 +3652,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Rpt_Calendar"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -3669,7 +3669,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Rpt_Collision_Type"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="4">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -3686,7 +3686,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Rpt_Injuries"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="3">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -3703,7 +3703,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Rpt_Light_Condition"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="4">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -5701,7 +5701,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
         <NodeLayout
           Size="168,41.6"
           Id="Package\DIM_TABLES\Dim_Artificial_Light"
@@ -5754,7 +5754,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="112.766659062936,59.7999980654319">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-14.4000043710073,37.3999985716741"
               Start="0,0"
               End="-14.4000043710073,29.8999985716741">
@@ -5838,7 +5838,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="119.999995082617,69.7333325257565">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-18.2333335609902,40.7333327607977"
               Start="0,0"
               End="-18.2333335609902,33.2333327607977">
@@ -5879,7 +5879,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="320.833327824043,170.266666353279">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="116.299985384445,127.799998824795"
               Start="0,0"
               End="108.799985384445,127.799998824795">
@@ -5913,7 +5913,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="390.083326389806,680.733330663509">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,69.4666653046337"
               Start="0,0"
               End="0,61.9666653046337">
@@ -5935,7 +5935,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="391.866658653153,986.999995968143">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-20.2666624777843,47.2666670222382"
               Start="0,0"
               End="-20.2666624777843,39.7666670222382">
@@ -5969,7 +5969,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="519.933313208488,318.866665178074">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-131.633319082029,65.0666654854351"
               Start="0,0"
               End="-131.633319082029,57.5666654854351">
@@ -6003,7 +6003,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
           TopLeft="371.599996175369,1261.46666299038">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="-18.6000117470816,94.6666640390301"
               Start="0,0"
               End="-18.6000117470816,87.1666640390301">
@@ -6086,7 +6086,7 @@ ON s.[Light Condition] = l.Light_Condition;</property>
         <AnnotationLayout
           Text="Creating report views for end users to analyze and create reports with"
           ParentId="Package"
-          Size="456,60"
+          Size="456,40.8"
           Id="17fe89a4-f0a7-4fa4-a552-b0cc6d8d54fb"
           TopLeft="810.69995806565,1118.79999880671">
           <AnnotationLayout.FontInfo>
