@@ -2,13 +2,13 @@
 
 ## Netflix Analysis
 
-The data within the files contained in the Netflix Analysis folder were provided by my family's Netflix account. I have included the staging and data loading processes, along with the finished database created in SQL Server Management Studio. The Power BI presentation analyzes the similarities and differences between all profiles regarding our watching patterns and preferences.
+The data that is linked below under Netflix Analysis was provided by my family's Netflix account. I have included the staging and data loading processes, along with the finished database created in SQL Server Management Studio. The Power BI presentation analyzes the similarities and differences between all profiles regarding our watching patterns and preferences.
 
 ## ETL Nova Scotia Collisions
 
 [Nova Scotia Data Mapping and Analytics Hub]: https://data-hrm.hub.arcgis.com/datasets/e0293fd4721e41d7be4d7386c3c59c16_0/explore
 
-The ETL Nova Scotia Collisions folder contains a Microsoft Visual Studio ETL project integrated with SQL Server Management Studio. This project focuses on collisions that have occurred over the past 5 years within the HRM (Halifax Regional Municipality) area. The data was sourced from the [Nova Scotia Data Mapping and Analytics Hub].
+The ETL Nova Scotia Collisions link is a Microsoft Visual Studio ETL project integrated with SQL Server Management Studio. This project focuses on collisions that have occurred over the past 5 years within the HRM (Halifax Regional Municipality) area. The data was sourced from the [Nova Scotia Data Mapping and Analytics Hub].
 
 ### <u>Links</u>
 
