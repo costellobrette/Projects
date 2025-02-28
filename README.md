@@ -12,7 +12,9 @@ The ETL Nova Scotia Collisions link is a Microsoft Visual Studio ETL project int
 
 ### <u>Links</u>
 
-[Netflix Analysis Staging]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Staging.sql
+The Power BI Presentation, Netflix database, and the Microsoft Visual Studio file for Nova Scotia Collisions can be downloaded through raw file.
+
+[Netflix Analysis Staging]:https://github.com//Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Staging.sql
 [Netflix Analysis Data Loader]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis%20Data%20Loader.sql
 [Netflix Database]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix_DW.bak
 [Power BI Presentation]:https://github.com/costellobrette/Projects/blob/main/Netflix%20Analysis/Netflix%20Analysis.pbix
